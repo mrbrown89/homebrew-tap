@@ -1,9 +1,9 @@
 class WorkbrewCli < Formula
   desc "CLI for querying Workbrew workspaces"
   homepage "https://github.com/mrbrown89/workbrew-cli"
-  url "https://github.com/mrbrown89/workbrew-cli/releases/download/v0.3.0/workbrew-cli-darwin-arm64.tar.gz"  
-  sha256 "e4772dcb0b7084d5298dd229f420d2ded36f7492832eeb13a61bd35b4b2c293e"
-  version "0.3.0"
+  url "https://github.com/mrbrown89/workbrew-cli/releases/download/v0.3.1/workbrew-cli-darwin-arm64.tar.gz"  
+  sha256 "89ea14ca978529abb0302f7dfc6732f66e44dc3448f831086f9c9da49ce6e296"
+  version "0.3.1"
 
   def install
     bin.install "workbrew-cli"
